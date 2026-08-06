@@ -110,6 +110,5 @@ Search the file for `TODO` and you'll find these:
 
 ## Credits
 
-Design language inspired by [Brandon Chen's portfolio](https://bchen7230-netizen.github.io/portfolio/).
 Fonts: [Archivo](https://fonts.google.com/specimen/Archivo) and
 [EB Garamond](https://fonts.google.com/specimen/EB+Garamond) via Google Fonts.
