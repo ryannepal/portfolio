@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Ryan Nepal</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700;800&family=EB+Garamond:wght@400&display=swap" rel="stylesheet">
+
+<!-- Styles are inlined here on purpose: a 404 can be served from any address,
+     and relative links to the stylesheet would not always resolve. -->
+<style>
+  :root { --accent:#1B4DD1; --paper:#F4F1EA; --ink:#17150F; --ink-soft:#4A453B; --rule:#D8D1C1; }
+  * { box-sizing: border-box; }
+  body {
+    margin:0; min-height:100vh; display:grid; place-items:center; padding:32px;
+    background:var(--paper); color:var(--ink);
+    font-family:"EB Garamond", Georgia, serif; font-size:19px; line-height:1.6;
+  }
+  .box { max-width:560px; }
+  .mono {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:11px; letter-spacing:.16em; text-transform:uppercase; color:#7A7264;
+  }
+  .code {
+    font-family:"Archivo", Helvetica, Arial, sans-serif; font-weight:800;
+    font-size:clamp(64px,16vw,140px); line-height:.85; letter-spacing:-.04em;
+    margin:18px 0 6px;
+  }
+  .code span { color:var(--accent); }
+  h1 {
+    font-family:"Archivo", Helvetica, Arial, sans-serif; font-weight:700;
+    font-size:clamp(24px,3.4vw,34px); letter-spacing:-.02em; line-height:1.12;
+    margin:14px 0 16px;
+  }
+  p { color:var(--ink-soft); margin:0 0 22px; }
+  .rule { height:1px; background:var(--rule); margin:26px 0; }
+  a.btn {
+    display:inline-block; text-decoration:none;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:10.5px; letter-spacing:.15em; text-transform:uppercase;
+    padding:12px 17px; background:var(--accent); color:#fff; border-radius:2px;
+  }
+  a.btn:hover { background:var(--ink); }
+  a.btn:focus-visible { outline:2px solid var(--ink); outline-offset:3px; }
+</style>
+</head>
+<body>
+  <main class="box">
+    <div class="mono">Error 404 — page not found</div>
+    <div class="code">4<span>04</span></div>
+    <div class="rule"></div>
+    <h1>That address doesn't exist here.</h1>
+    <p>The link may be out of date, or a project may have been renamed. The portfolio
+       itself is fine — head back to the front page and pick up from there.</p>
+    <a class="btn" href="index.html">← Back to the portfolio</a>
+  </main>
+</body>
+</html>

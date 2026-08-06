@@ -1,0 +1,553 @@
+{
+  "_readme": [
+    "THIS IS THE ONLY FILE YOU NEED TO EDIT.",
+    "Every word, link and photo filename on the site comes from here.",
+    "Rules: keep the quotes, keep the commas between items, no comma before a } or ].",
+    "Any key that starts with an underscore (like this one) is a note to you and is ignored by the site.",
+    "Any link whose value starts with TODO is hidden automatically, so it never shows up broken.",
+    "Full click-by-click instructions are in 'Portfolio Editing Guide.docx'."
+  ],
+
+  "settings": {
+    "_note": "Site-wide switches. true or false, no quotes around them.",
+    "_showProjectFiltersNote": "The row of discipline filter buttons above the project grid. Off while you have a handful of projects. Set to true once you have roughly six or more and filtering starts to help.",
+    "showProjectFilters": false
+  },
+
+  "profile": {
+    "_note": "Top of the page. 'name' splits automatically: first word black, the rest in your accent colour.",
+    "name": "Ryan Nepal",
+    "field": "Mechanical Engineering",
+    "kicker": "Mechanical Engineering — Project Portfolio",
+    "tagline": "I design the part, then build the fixture that proves it.",
+    "metaDescription": "Mechanical engineering student at UMass Amherst. Design, FEA, CNC machining, and test validation.",
+
+    "photo": "headshot.jpg",
+    "photoAlt": "Ryan Nepal speaking at a podium",
+    "photoCaption": "Fig. 1 — Ryan Nepal",
+
+    "_buttonsNote": "Buttons under your name. Delete any you don't want. 'primary' fills it with the accent colour.",
+    "buttons": [
+      { "label": "See the work", "url": "#projects" },
+      { "label": "Download resume", "url": "files/Ryan-Nepal-Resume.pdf", "primary": true },
+      { "label": "LinkedIn", "url": "https://www.linkedin.com/in/ryan-nepal", "quiet": true },
+      { "label": "GitHub", "url": "TODO: paste your GitHub profile URL here", "quiet": true },
+      { "label": "Email", "url": "mailto:nepalryan@outlook.com", "quiet": true }
+    ],
+
+    "_factsNote": "The strip of small facts under the hero. Add or delete rows freely.",
+    "facts": [
+      { "label": "Institution", "value": "UMass Amherst" },
+      { "label": "Degree", "value": "B.S. Mechanical Engineering" },
+      { "label": "Graduating", "value": "May 2027" },
+      { "label": "Based", "value": "Cambridge, MA" }
+    ]
+  },
+
+  "about": {
+    "_note": "Two to four short paragraphs. Each string in 'paragraphs' becomes its own paragraph.",
+    "heading": "Mechanical engineering student who works where the drawing meets the machine.",
+    "_paragraphsNote": "The first paragraph is the personal one — rewrite it so it sounds like you, not like me. Keep it to two or three sentences; the photo does the rest of the work.",
+    "paragraphs": [
+      "That is me in the photograph, installing my own training wheels. The method has improved since; the instinct has not. I want to know how a thing works, and I would rather find out with my hands than read about it.",
+      "It is most of why I chose mechanical engineering, and why the work I am proudest of is the work where I had to make the part and not only draw it. I am a mechanical engineering student at UMass Amherst graduating in May 2027, and most of what I do sits on both sides of a design: modelling and analysing a part, then building the fixture, running the test, and finding out whether the numbers held.",
+      "At NexTek I designed a leak test fixture for our largest customer's RF surge protectors: sized four pneumatic cylinders to apply 42.5 psi at a factor of safety of 1.3, built it on 80/20 with an A36 steel cross bar, and took the bench from four units per cycle to sixteen. Every position vents to its own numbered tube in a water bath, so a leak names the unit that failed. More than 21,000 units have gone through it. At Amazon's Reliability and Maintenance Engineering organisation I designed and validated a PLC-controlled tote-turner using pneumatic actuators and photoelectric sensors, and built a full-stack tracking application on AWS so conveyor sorter amnesty could finally be root-caused with data instead of guesses.",
+      "As Fuel System Lead on the UMass Supermileage Vehicle Team I replaced a 3.2 lb pressurised air assembly that had cracked and leaked with a 2 L PET charge bottle and a single machined aluminium adapter — roughly 97% lighter, with far fewer interfaces to fail. The car ran 414 mpg at the Shell Eco-marathon. I also rebuilt a salvage Mazda3 in a driveway, which taught me more about tolerance and patience than any lab."
+    ],
+
+    "photo": "training-wheels.jpg",
+    "photoAlt": "Ryan Nepal as a toddler, installing training wheels on a bicycle",
+    "photoCaption": "Fig. 2 — First assembly. Training wheels, owner-installed.",
+
+    "_highlightsNote": "Three or four numbers worth pulling out. 'figure' is the big accent-coloured bit.",
+    "highlights": [
+      { "figure": "414", "label": "MPG at Shell Eco-marathon", "note": "UMass Supermileage Vehicle Team, fuel system lead" },
+      { "figure": "~97%", "label": "Pressure vessel mass cut", "note": "3.2 lb assembly replaced by a 33–45 g PET charge bottle" },
+      { "figure": "300%", "label": "Test throughput increase", "note": "16 units per cycle instead of 4, on a fixture I sized, built and validated" }
+    ]
+  },
+
+  "projects": [
+    {
+      "_note": "PROJECT 1. To add a new project, copy the TEMPLATE block at the bottom of this list.",
+      "id": "supermileage-fuel-system",
+      "title": "Fuel Delivery System — Supermileage Vehicle",
+      "blurb": "A pressure-fed fuel system: air from a 2 L PET charge bottle pressurises the fuel reservoir, which supplies port injection. The assembly it replaced had cracked, leaked at multiple interfaces, and weighed 3.2 lb against the bottle's 33–45 g. Validated in Ansys, machined in-house, then pressure-tested. The car ran 414 mpg at Indianapolis.",
+      "date": "September 2025 — Present",
+      "setting": "UMass Supermileage Vehicle Team",
+      "role": "Fuel System Lead",
+      "status": "Competed at Shell Eco-marathon",
+      "disciplines": ["Automotive", "Analysis", "CAD/CAM", "Manufacturing"],
+      "tools": ["SolidWorks", "ANSYS", "CNC machining", "GD&T", "Pressure testing", "Prototyping"],
+
+      "coverPhoto": "supermileage-fuel-system-cover.jpg",
+      "coverAlt": "TODO: describe the cover photo for screen readers",
+
+      "stats": [
+        { "figure": "414", "label": "MPG in competition", "note": "Shell Eco-marathon, Indianapolis Motor Speedway" },
+        { "figure": "~97%", "label": "Pressure vessel mass reduction", "note": "3.2 lb assembly replaced by a 33–45 g PET charge bottle" },
+        { "figure": "40/50", "label": "PSI held after 48 hours", "note": "charged to 50 psi, 10 psi lost over two days" },
+        { "figure": "1", "label": "Machined interface", "note": "one adapter carrying the NPT connection, down from several joints" },
+        { "figure": "FEA", "label": "Validated in Ansys", "note": "pressure and stress analysis before cutting metal" }
+      ],
+
+      "specs": [
+        { "label": "Competition", "value": "Shell Eco-marathon, Indianapolis Motor Speedway" },
+        { "label": "Team", "value": "UMass Supermileage Vehicle Team, multidisciplinary" },
+        { "label": "Architecture", "value": "Pressurised air → fuel reservoir → port injection" },
+        { "label": "Charge bottle", "value": "2 L PET, 33–45 g, holds pressurised air" },
+        { "label": "Adapter", "value": "Aluminium, CNC-machined from stock, hand-tapped NPT" }
+      ],
+
+      "problem": [
+        "A supermileage vehicle only wins on efficiency, so every gram of unnecessary structure and every millilitre of poorly delivered fuel shows up in the final mileage number.",
+        "The system I inherited worked against both. It carried too many points of failure: it had cracked, it leaked at multiple interfaces, and at roughly 3.2 lb it was heavy for what it actually had to do — hold pressurised air and hand it to the fuel reservoir. Each extra joint was another place to leak, and the structure had to be heavy to survive the joints it already had."
+      ],
+      "roleDetail": "Fuel System Lead. I own the design and optimisation of the fuel delivery system, coordinate with the wider team on packaging and integration, and did the CAD, analysis, machining, and testing on the charge bottle and adapter myself.",
+      "approach": [
+        "Traced the previous design's failures back to interface count rather than material choice — every additional joint was a leak path, and carrying them safely was what made the assembly heavy.",
+        "Reduced the pressure side to two parts: a 2 L PET bottle as the air charge vessel, and a single custom aluminium adapter carrying the NPT hose connection into the circuit that pressurises the fuel reservoir.",
+        "Chose the bottle deliberately, not as a shortcut: at 33–45 g it is a mass-produced pressure vessel already qualified for carbonation pressure, which removed both the weight and most of the interfaces in one move.",
+        "Modelled the adapter in CAD and validated it in Ansys under pressure and stress before cutting any metal.",
+        "Programmed the toolpaths and CNC-machined the adapter from stock aluminium, then deburred and verified fitment.",
+        "Pressure-tested the assembly by charging the bottle to 50 psi and tracking leak-down over two days.",
+        "Applied CAD and FEA across the wider fuel delivery system to improve combustion efficiency and structural integrity while trimming mass."
+      ],
+      "results": [
+        "Cut pressure vessel mass by roughly 97% — from a 3.2 lb (1,450 g) assembly to a 33–45 g PET charge bottle, plus one machined adapter.",
+        "Held 40 of 50 psi after 48 hours, against a previous design that leaked at multiple interfaces.",
+        "Removed the crack and multi-interface leak paths by cutting part count rather than adding sealing.",
+        "Cost less in material and machining time than the assembly it replaced, and was faster to build.",
+        "Vehicle achieved 414 mpg in competition at the Shell Eco-marathon."
+      ],
+
+      "_photosNote": "A step-by-step progression, read left to right, two photos per row. \"galleryColumns\" fixes the number of columns. \"galleryMaxWidth\" keeps the photos a sensible size on a wide screen. An entry with no \"file\" but a \"placeholder\" label reserves a slot for a photo or drawing you have not added yet.",
+      "galleryColumns": 2,
+      "galleryMaxWidth": "820px",
+      "photos": [
+        {
+          "placeholder": "Engineering drawing — to be added",
+          "caption": "TODO: add the dimensioned drawing of the adapter",
+          "crop": "4/3"
+        },
+        {
+          "placeholder": "CAD model — to be added",
+          "caption": "TODO: add the SolidWorks model or an isometric render",
+          "crop": "4/3"
+        },
+        {
+          "file": "supermileage-print-pressure-side.jpg",
+          "caption": "3D-printed prototype, pressurised air side — checking fit and clearance before committing to metal",
+          "alt": "3D-printed prototype of the adapter, pressurised air side"
+        },
+        {
+          "file": "supermileage-print-reservoir-side.jpg",
+          "caption": "Same prototype, fuel reservoir side — verifying the mating face and port positions",
+          "alt": "3D-printed prototype of the adapter, fuel reservoir side"
+        },
+        {
+          "file": "supermileage-cnc-machine.jpg",
+          "caption": "Cutting the adapter on a Tormach 1100MX — the program runs on the control screen at left while coolant washes the chips clear inside",
+          "alt": "A Tormach 1100MX CNC mill running, with the toolpath on the control screen and coolant on the door glass"
+        },
+        {
+          "file": "supermileage-cnc-cutting.jpg",
+          "caption": "Inside the enclosure — the cutter working down into the aluminium block clamped in the vise, coolant flooding the cut to clear chips and keep the tool cool",
+          "alt": "Close view inside the CNC mill: the cutter machining an aluminium block clamped in a vise, with coolant flowing over the cut"
+        },
+        {
+          "file": "supermileage-adapter-finished.jpg",
+          "caption": "The finished aluminium fuel system adapter, deburred and off the machine",
+          "alt": "Completed CNC-machined aluminium fuel system adapter"
+        },
+        {
+          "file": "supermileage-tapping-npt.jpg",
+          "caption": "Fuel reservoir side hand-tapped for NPT — cutting the taper by feel so the thread pulls up square and seals without a gasket",
+          "alt": "Hand tapping an NPT thread into the fuel reservoir side of the adapter"
+        },
+        {
+          "file": "supermileage-charge-system.jpg",
+          "caption": "Complete pressure circuit on the bench — the 2 L PET charge bottle feeds regulated air through the gauge manifold and blow-off valve into the fuel reservoir, which supplies port injection",
+          "alt": "Complete fuel system: charge bottle, gauges, blow-off valve and machined adapter"
+        },
+        {
+          "file": "supermileage-fuel-system-cover.jpg",
+          "caption": "Race day at the Indianapolis Motor Speedway — Shell Eco-marathon",
+          "alt": "The Supermileage vehicle at the Indianapolis Motor Speedway on race day"
+        }
+      ],
+
+      "_linksNote": "Optional buttons: a report PDF, a CAD file, a GitHub repo, a video. Delete or fill in.",
+      "links": [
+        { "label": "Adapter CAD (STEP)", "url": "TODO: upload a STEP file to the files folder and link it, or delete this line" }
+      ]
+    },
+
+    {
+      "_note": "PROJECT 2",
+      "id": "leak-test-fixture",
+      "title": "16-Up Leak Test Fixture for RF Surge Protectors",
+      "blurb": "Our old bench tested four units per 10-second cycle, and our largest customer orders tens of thousands at a time — so the test bench set the pace, not the line. I sized four pneumatic cylinders to clamp sixteen units at once at 42.5 psi, built the frame from 80/20 extrusion and an A36 steel cross bar, and ran every station to its own numbered tube in a water bath. One bubble now names the unit that failed.",
+      "date": "May 2025 — August 2025",
+      "setting": "NexTek, LLC — Mechanical Engineering internship",
+      "role": "Design, pneumatic sizing, build, and validation owner",
+      "status": "Validated and used in production",
+      "disciplines": ["CAD/CAM", "Analysis", "Pneumatics", "Testing"],
+      "tools": ["SolidWorks", "FEA", "Pneumatic actuation", "GD&T", "Leak testing", "Data acquisition"],
+
+      "coverPhoto": "leak-test-fixture-cover.jpg",
+      "coverAlt": "The completed leak test fixture",
+
+      "stats": [
+        { "figure": "4 → 16", "label": "Units per 10-second cycle", "note": "a 300% increase in throughput at the same cycle time" },
+        { "figure": "16", "label": "Indexed leak channels", "note": "every station has its own numbered tube, so one bubble names the failed unit" },
+        { "figure": "42.5", "label": "PSI applied at the unit", "note": "above the customer's spec threshold" },
+        { "figure": "1.3", "label": "Factor of safety", "note": "applied pressure over the customer's spec threshold, accepted on their spec sheet" },
+        { "figure": "680", "label": "LBF structural load", "note": "carried by the frame without deflecting enough to break a seal" },
+        { "figure": "21,000+", "label": "Units tested", "note": "run through the fixture in production" }
+      ],
+
+      "specs": [
+        { "label": "Product under test", "value": "IP-rated RF surge protectors" },
+        { "label": "Requirement", "value": "Withstand the customer's spec threshold of 32.7 psi" },
+        { "label": "Applied pressure", "value": "42.5 psi — factor of safety 1.3" },
+        { "label": "Throughput", "value": "16 units per 10-second cycle, up from 4" },
+        { "label": "Actuation", "value": "Four pneumatic cylinders on a two-button control" },
+        { "label": "Platens", "value": "Four lower platens, four units each, with a driven upper platen per cylinder" },
+        { "label": "Leak detection", "value": "Sixteen labelled tubes submerged in a water reservoir" },
+        { "label": "Frame", "value": "80/20 aluminium extrusion" },
+        { "label": "Cross bar", "value": "A36 mild steel U-channel" },
+        { "label": "Brackets and fasteners", "value": "Aluminium brackets, 1/4-20 Phillips screws and nuts", "wide": true }
+      ],
+
+      "problem": [
+        "Our largest customer, a Fortune 500 buyer, orders IP-rated RF surge protectors tens of thousands of units at a time and supplies the spec sheet those units are tested against. Every one has to hold pressure above their spec threshold before it ships.",
+        "The method we had could pressure-test four units per 10-second cycle. At that order volume, the test bench — not the line — decided how fast product left the building.",
+        "So the fixture had to do three things: apply more pressure than the spec demands with defensible margin, apply it to far more units per cycle, and still tell us which unit failed rather than only that one had. All of it while carrying roughly 680 lbf of reaction load without deflecting enough to break a seal."
+      ],
+      "roleDetail": "I owned the fixture end to end — the pneumatic sizing, the CAD, the FEA, the build, and the validation — alongside roughly four concurrent projects.",
+      "approach": [
+        "Took the requirement straight off the customer's spec sheet, then researched pneumatic cylinders against it — working through bore size, rod diameter, and maximum output to land on a cylinder that applies 42.5 psi at the unit. That is a factor of safety of 1.3 over the spec threshold, which their sheet accepts.",
+        "Split the sixteen stations across four lower platens holding four units each, and put a driven upper platen on every cylinder so all sixteen seal in a single stroke.",
+        "Put actuation behind two green buttons, so all four cylinders fire together and the operator's hands stay clear of the platens as they close.",
+        "Ran every station to its own numbered tube ending below the surface of a water reservoir. A leaking unit bubbles its own tube, so one bubble names the unit rather than the batch — nobody re-tests the other fifteen to find it.",
+        "Built the structure from 80/20 aluminium extrusion and an A36 mild steel U-channel cross bar, which carries the clamping load across all sixteen stations without bowing in the middle.",
+        "Used aluminium brackets for the supports and 1/4-20 Phillips screws and nuts throughout, so the fixture can be adjusted or serviced with one driver and one wrench.",
+        "Ran FEA on the assembly to confirm it carries roughly 680 lbf without deflecting enough to break a seal.",
+        "Assembled and validated the fixture on the bench with data acquisition, then put production volume through it.",
+        "Fed build issues back through ECOs and change control to keep it in spec as it was used."
+      ],
+      "results": [
+        "Throughput went from 4 units per 10-second cycle to 16 — a 300% increase at the same cycle time.",
+        "Applied 42.5 psi at the unit, a factor of safety of 1.3 over the customer's spec threshold.",
+        "Each numbered tube pins a failure to one unit, so we stopped re-testing whole batches to find it.",
+        "FEA confirmed the frame carries roughly 680 lbf without losing seal.",
+        "More than 21,000 units have gone through it in production."
+      ],
+
+      "_photosNote": "To fill a reserved slot: put your photo in images/projects/, then in that entry swap the \"placeholder\" line for a \"file\" line — for example \"file\": \"leak-test-fixture-01.jpg\" — and rewrite the caption and alt. An entry with a \"video\" instead of a \"file\" plays inline and is always muted.",
+      "galleryColumns": 2,
+      "galleryMaxWidth": "820px",
+      "photos": [
+        {
+          "video": "leak-test-fixture-demo.mp4",
+          "poster": "leak-test-fixture-demo-poster.jpg",
+          "crop": "16/9",
+          "span": "full",
+          "caption": "The fixture in operation",
+          "alt": "Video of the leak test fixture running a unit"
+        },
+        {
+          "placeholder": "Photo slot 1 — to be added",
+          "caption": "TODO: replace this slot with a photo and write its caption",
+          "crop": "4/3"
+        },
+        {
+          "placeholder": "Photo slot 2 — to be added",
+          "caption": "TODO: replace this slot with a photo and write its caption",
+          "crop": "4/3"
+        },
+        {
+          "placeholder": "Photo slot 3 — to be added",
+          "caption": "TODO: replace this slot with a photo and write its caption",
+          "crop": "4/3"
+        }
+      ],
+      "links": []
+    },
+
+    {
+      "_note": "PROJECT 3",
+      "id": "mazda3-rebuild",
+      "title": "Rebuild of a Salvage 2008 Mazda3 S",
+      "blurb": "A salvage car brought back to running order: full mechanical and structural assessment, front-end reconstruction, and an engineered repair for sheared intake manifold ports that restored airflow and eliminated the misfires.",
+      "date": "January 2026",
+      "setting": "Personal project",
+      "role": "Assessment, diagnostics, fabrication, assembly",
+      "status": "Complete — vehicle running",
+      "disciplines": ["Automotive", "Diagnostics", "Fabrication"],
+      "tools": ["Fault-code diagnostics", "Component inspection", "Precision tapping", "High-temp epoxy", "Hand tools"],
+
+      "coverPhoto": "mazda3-cover.jpg",
+      "coverAlt": "The rebuilt 2008 Mazda3 S",
+
+      "stats": [
+        { "figure": "0", "label": "Misfires after repair", "note": "vacuum integrity restored at the intake manifold" },
+        { "figure": "In place", "label": "Manifold repaired, not replaced", "note": "sheared ports precision-tapped, vacuum valves and lines fitted, high-temp epoxy seal" },
+        { "figure": "Running", "label": "Returned to service", "note": "structural assessment, front-end reconstruction, reassembly" }
+      ],
+
+      "specs": [
+        { "label": "Vehicle", "value": "2008 Mazda3 S, purchased as salvage" },
+        { "label": "Failure mode", "value": "Sheared intake manifold ports, front-end collision damage" }
+      ],
+
+      "problem": "The car arrived with front-end collision damage and an engine that would not run cleanly. Before anything could be fixed, the real failure modes had to be separated from the noise.",
+      "roleDetail": "Everything: assessment, diagnosis, the repair strategy, fabrication, and assembly.",
+      "approach": [
+        "Performed a comprehensive mechanical and structural assessment, identifying front-end collision damage and engine performance issues through component inspection and fault-code diagnostics.",
+        "Reconstructed the front-end assembly.",
+        "Engineered a repair for sheared intake manifold ports by precision tapping and installing vacuum valves and lines, sealed with high-temp epoxy."
+      ],
+      "results": [
+        "Restored proper airflow through the intake manifold.",
+        "Eliminated engine misfires and returned the vehicle to running condition."
+      ],
+
+      "_photoGroupsNote": "photoGroups makes labelled columns side by side. The 1st photo of every column shares a row, the 2nd photo shares the next row, and so on, so comparable photos line up and sit centred against each other. \"width\" sets how wide a column is relative to the others, so 1 and 1.7 means the second column is 1.7 times wider. \"crop\" shows a photo at a set shape (\"1/1\" square, \"4/3\", \"16/9\") trimmed evenly from the top and bottom instead of at its own proportions. \"maxWidth\" stops a photo filling its column, and is needed whenever a crop makes a photo tall. \"59%\" makes a photo in the After column exactly as wide as one in the Before column, because the After column is 1.7 times wider and 1 divided by 1.7 is 0.59. Use photoGroups OR photos, not both.",
+      "photoGroups": [
+        {
+          "label": "Before",
+          "width": 1,
+          "photos": [
+            {
+              "file": "mazda3-before-exterior.jpg",
+              "caption": "front-end collision damage",
+              "alt": "Salvage 2008 Mazda3 with front-end collision damage"
+            },
+            {
+              "file": "mazda3-before-manifold.jpg",
+              "caption": "Sheared intake manifold ports",
+              "alt": "Intake manifold with sheared ports, before repair"
+            }
+          ]
+        },
+        {
+          "label": "After",
+          "width": 1.7,
+          "photos": [
+            {
+              "file": "mazda3-after-exterior-02.jpg",
+              "caption": "Front end reconstructed",
+              "alt": "Reconstructed front end of the Mazda3",
+              "crop": "5/6",
+              "maxWidth": "70%"
+            },
+            {
+              "file": "mazda3-after-manifold.jpg",
+              "caption": "Engineered bypass — tapped ports with vacuum valves and lines",
+              "alt": "Repaired intake manifold with vacuum valves and lines installed",
+              "crop": "4/3",
+              "maxWidth": "59%"
+            }
+          ]
+        }
+      ],
+      "links": []
+    },
+
+    {
+      "_note": "TEMPLATE — this block is hidden from the live site because of \"hidden\": true. Copy the whole block, paste it above, change \"hidden\" to false, and fill it in. Delete any line you don't need.",
+      "hidden": true,
+      "id": "template-project",
+      "title": "Project title goes here",
+      "blurb": "Two or three sentences. This is what shows on the project card on the front page.",
+      "date": "Month Year",
+      "setting": "Coursework / internship / personal project / club",
+      "role": "What you personally did",
+      "status": "Built and tested / In progress / Complete",
+      "disciplines": ["CAD/CAM", "Analysis"],
+      "tools": ["SolidWorks", "ANSYS", "CNC machining"],
+      "coverPhoto": "my-project-cover.jpg",
+      "coverAlt": "Short description of the cover photo for screen readers",
+      "stats": [
+        { "figure": "12", "label": "Short label in caps", "note": "optional smaller note" }
+      ],
+      "specs": [
+        { "label": "Any label", "value": "Any value" }
+      ],
+      "problem": "What needed solving, and why it was hard. Can be one string, or a list of strings for several paragraphs.",
+      "roleDetail": "Your specific contribution.",
+      "approach": [
+        "One bullet per step you took.",
+        "Another step."
+      ],
+      "results": [
+        "What actually came out of it. Numbers if you have them."
+      ],
+      "photos": [
+        { "file": "my-project-01.jpg", "caption": "Assembled fixture on the bench", "alt": "Description for screen readers" },
+        { "file": "my-project-02.jpg", "caption": "Detail of the machined face" }
+      ],
+      "links": [
+        { "label": "Report (PDF)", "url": "files/my-report.pdf" },
+        { "label": "GitHub repo", "url": "https://github.com/yourname/yourrepo" }
+      ]
+    }
+  ],
+
+  "experience": [
+    {
+      "_note": "Newest first. 'kind' is the small tag next to the dates — use anything you like.",
+      "jobTitle": "Reliability and Maintenance Engineering Intern",
+      "organization": "Amazon",
+      "dates": "June 2026 — August 2026",
+      "location": "Las Vegas, NV",
+      "kind": "Internship",
+      "bullets": [
+        "Designed and validated a PLC-controlled tote-turner using pneumatic actuators and photoelectric sensors to automate tote orientation on conveyance; leveraged industrial automation, ladder logic, and GD&T — increased accuracy 14%.",
+        "Built and deployed a full-stack web application on AWS (Elastic Beanstalk, Aurora PostgreSQL, S3) for tracking conveyor sorter amnesty across a site; a first-of-its-kind system enabling data-driven root cause analysis.",
+        "Owned a DMAIC project from baseline (1,171 units across 12 segments) through launch; 700+ units logged in the first 10 days, with a projected 2–4 hours per week saved by eliminating ad hoc investigation and preventing jams."
+      ]
+    },
+    {
+      "jobTitle": "Mechanical Engineering Intern",
+      "organization": "NexTek, LLC",
+      "dates": "May 2025 — August 2025",
+      "location": "Billerica, MA",
+      "kind": "Internship",
+      "bullets": [
+        "Owned design, pneumatic sizing, build, and validation of a 16-up leak test fixture for IP-rated RF surge protectors; sized four cylinders to apply 42.5 psi at FoS 1.3 over the customer spec, performed FEA to a ~680 lbf structural load, and increased throughput 300% to 16 units per 10-second cycle across 21,000+ units tested.",
+        "Supported end-to-end design and validation of EMI/RF protection components; applied CAD/3D modelling, GD&T, assembly, and bench testing with data acquisition to verify performance and reliability.",
+        "Managed roughly four concurrent projects; led troubleshooting and failure analysis and drove ECOs and change control to resolve build issues and maintain spec compliance."
+      ]
+    },
+    {
+      "jobTitle": "Fuel System Lead",
+      "organization": "UMass Supermileage Vehicle Team",
+      "dates": "September 2025 — Present",
+      "location": "Amherst, MA",
+      "kind": "Leadership",
+      "bullets": [
+        "Collaborate with a multidisciplinary engineering team to design, develop, and optimise a high-efficiency vehicle for the Shell Eco-marathon at the Indianapolis Motor Speedway.",
+        "Own design and optimisation of the fuel delivery system; used CAD and FEA to improve combustion efficiency and structural integrity, and CNC machining to produce efficient components; achieved 414 mpg in competition.",
+        "Rebuilt the pressure side of a port-injection fuel system: replaced a 3.2 lb assembly that had cracked and leaked at multiple interfaces with a 2 L PET air charge bottle and a single machined aluminium adapter — roughly 97% lighter, cheaper, and faster to build."
+      ]
+    },
+    {
+      "jobTitle": "CDL Instructor, Dispatcher & Operator",
+      "organization": "UMass Transit Services",
+      "dates": "September 2024 — Present",
+      "location": "Amherst, MA",
+      "kind": "Leadership",
+      "bullets": [
+        "Train Class B CDL-permit drivers in safe operation, defensive driving, and transit procedures, including instruction on bus mechanical systems.",
+        "Direct day-to-day operations of a 28-bus fleet, supervising drivers, coordinating dispatch, and resolving service disruptions to keep service safe, reliable, and on time."
+      ]
+    }
+  ],
+
+  "skills": [
+    {
+      "_note": "Add, rename, reorder or delete whole groups. Items can be plain text, or text plus a small note.",
+      "group": "CAD & Design",
+      "items": [
+        { "name": "SolidWorks", "note": "parts, assemblies, drawings" },
+        "Autodesk Inventor",
+        "Fusion 360",
+        "AutoCAD",
+        "Revit",
+        { "name": "GD&T", "note": "tolerance-driven dimensioning" },
+        "DFMA",
+        "CAD / 3D modelling"
+      ]
+    },
+    {
+      "group": "Manufacturing",
+      "items": [
+        { "name": "CNC machining", "note": "programming and machining from stock" },
+        "Manufacturing processes",
+        "Prototyping",
+        "Assembly and fitment verification",
+        "Deburring and finishing"
+      ]
+    },
+    {
+      "group": "Analysis & FEA",
+      "items": [
+        { "name": "ANSYS", "note": "pressure and stress analysis" },
+        { "name": "FEA", "note": "assembly strength evaluation" },
+        { "name": "Strength of materials", "note": "coursework" },
+        { "name": "Fluid mechanics", "note": "coursework" },
+        { "name": "Thermodynamics", "note": "coursework" },
+        { "name": "Statics and dynamics", "note": "coursework" }
+      ]
+    },
+    {
+      "group": "Programming & Software",
+      "items": [
+        "MATLAB",
+        { "name": "PLC programming", "note": "ladder logic, industrial automation" },
+        { "name": "AWS", "note": "Elastic Beanstalk, Aurora PostgreSQL, S3" },
+        "Microsoft Excel",
+        "TODO: add any languages you're comfortable with, or delete this line"
+      ]
+    },
+    {
+      "group": "Lab & Testing",
+      "items": [
+        { "name": "Bench testing with data acquisition", "note": "performance and reliability verification" },
+        { "name": "Leak and pressure testing", "note": "leak-down monitoring under charge" },
+        "Root cause analysis",
+        "Failure analysis and troubleshooting",
+        "Fault-code diagnostics",
+        "Component inspection"
+      ]
+    },
+    {
+      "group": "Process & Soft Skills",
+      "items": [
+        { "name": "DMAIC", "note": "baseline through launch" },
+        "ECO and change control",
+        { "name": "Concurrent project management", "note": "roughly four projects at once" },
+        "Technical training and instruction",
+        "Cross-functional collaboration"
+      ]
+    }
+  ],
+
+  "education": {
+    "_note": "Honors and certifications are optional. To add them later, put back a \"honors\": [ \"...\" ] list or a \"certifications\": [ { \"name\": \"...\", \"issuer\": \"...\", \"year\": \"...\" } ] list. They only appear when they exist.",
+    "degree": "Bachelor of Science in Mechanical Engineering",
+    "school": "University of Massachusetts Amherst",
+    "location": "Amherst, MA",
+    "graduation": "Expected May 2027",
+
+    "coursework": [
+      "Design of Mechanical Components",
+      "Fluid Mechanics",
+      "Manufacturing Processes",
+      "Thermodynamics",
+      "Dynamics",
+      "Fundamentals of Electrical Engineering",
+      "Strength of Materials",
+      "Materials Science",
+      "Statics",
+      "Ordinary Differential Equations"
+    ]
+  },
+
+  "contact": {
+    "_note": "Any row left blank, or still saying TODO, is hidden automatically.",
+    "heading": "Open to mechanical engineering internships and co-ops — design, manufacturing, testing, and automation.",
+    "email": "nepalryan@outlook.com",
+    "phone": "617-396-1412",
+    "linkedin": "https://www.linkedin.com/in/ryan-nepal",
+    "linkedinLabel": "linkedin.com/in/ryan-nepal",
+    "github": "TODO: paste your GitHub profile URL here",
+    "githubLabel": "",
+    "resume": "files/Ryan-Nepal-Resume.pdf",
+    "resumeLabel": "Ryan Nepal — Resume (PDF)",
+    "location": "Cambridge, MA"
+  }
+}

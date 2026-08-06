@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="day">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Title and description are set automatically from content.json -->
+<title>Ryan Nepal — Mechanical Engineering Portfolio</title>
+<meta name="description" content="Mechanical engineering portfolio — design, analysis, manufacturing.">
+<meta name="author" content="Ryan Nepal">
+<meta name="theme-color" content="#F4F1EA">
+
+<!-- Social sharing preview. Swap the image once you add one. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ryan Nepal — Mechanical Engineering Portfolio">
+<meta property="og:description" content="Mechanical engineering portfolio — design, analysis, manufacturing.">
+<meta property="og:image" content="images/profile/headshot.jpg">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+<!-- Two webfonts. If you change these, also change --font-display and
+     --font-body at the top of assets/css/styles.css -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- Decorative drafting-sheet corner marks -->
+<div class="sheet-frame" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top" data-brand>Ryan Nepal</a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+      Menu
+    </button>
+
+    <nav class="nav-links" id="nav-links" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="btn-theme" id="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to night mode">
+      <span aria-hidden="true">◐</span><span data-theme-label>Night</span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- Loading / error messages appear here if content.json can't be read -->
+  <div id="boot"></div>
+
+  <div id="page">
+    <section class="hero" id="top">
+      <div class="wrap" id="hero-mount"></div>
+    </section>
+
+    <section id="about" aria-label="About">
+      <div class="wrap" id="about-mount"></div>
+    </section>
+
+    <section id="projects" aria-label="Projects">
+      <div class="wrap" id="projects-mount"></div>
+    </section>
+
+    <section id="experience" aria-label="Experience">
+      <div class="wrap" id="experience-mount"></div>
+    </section>
+
+    <section id="skills" aria-label="Skills">
+      <div class="wrap" id="skills-mount"></div>
+    </section>
+
+    <section id="education" aria-label="Education">
+      <div class="wrap" id="education-mount"></div>
+    </section>
+
+    <section id="contact" aria-label="Contact">
+      <div class="wrap" id="contact-mount"></div>
+    </section>
+  </div>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div class="mono" id="footer-line">Ryan Nepal</div>
+    <a class="mono" href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="assets/js/core.js"></script>
+<script src="assets/js/home.js"></script>
+</body>
+</html>
