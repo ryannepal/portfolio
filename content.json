@@ -62,7 +62,7 @@
     "_highlightsNote": "Three or four numbers worth pulling out. 'figure' is the big accent-coloured bit.",
     "highlights": [
       { "figure": "414", "label": "MPG at Shell Eco-marathon", "note": "UMass Supermileage Vehicle Team, fuel system lead" },
-      { "figure": "~97%", "label": "Pressure vessel mass cut", "note": "3.2 lb assembly replaced by a 33–45 g PET charge bottle" },
+      { "figure": "89%", "label": "Pressure vessel mass cut", "note": "3.2 lb assembly replaced by a 42 g PET charge bottle" },
       { "figure": "300%", "label": "Test throughput increase", "note": "16 units per cycle instead of 4, on a fixture I sized, built and validated" }
     ]
   },
@@ -85,7 +85,7 @@
 
       "stats": [
         { "figure": "414", "label": "MPG in competition", "note": "Shell Eco-marathon, Indianapolis Motor Speedway" },
-        { "figure": "~97%", "label": "Pressure vessel mass reduction", "note": "3.2 lb assembly replaced by a 33–45 g PET charge bottle" },
+        { "figure": "~97%", "label": "Pressure vessel mass reduction", "note": "3.2 lb assembly replaced by a 42 g PET charge bottle" },
         { "figure": "40/50", "label": "PSI held after 48 hours", "note": "charged to 50 psi, 10 psi lost over two days" },
         { "figure": "1", "label": "Machined interface", "note": "one adapter carrying the NPT connection, down from several joints" },
         { "figure": "FEA", "label": "Validated in Ansys", "note": "pressure and stress analysis before cutting metal" }
@@ -95,12 +95,12 @@
         { "label": "Competition", "value": "Shell Eco-marathon, Indianapolis Motor Speedway" },
         { "label": "Team", "value": "UMass Supermileage Vehicle Team, multidisciplinary" },
         { "label": "Architecture", "value": "Pressurised air → fuel reservoir → port injection" },
-        { "label": "Charge bottle", "value": "2 L PET, 33–45 g, holds pressurised air" },
+        { "label": "Charge bottle", "value": "2 L PET, 42 g, holds pressurised air" },
         { "label": "Adapter", "value": "Aluminium, CNC-machined from stock, hand-tapped NPT" }
       ],
 
       "problem": [
-        "A supermileage vehicle only wins on efficiency, so every gram of unnecessary structure and every millilitre of poorly delivered fuel shows up in the final mileage number.",
+        "A supermileage vehicle only wins on efficiency, so every gram of unnecessary structure and every milliliter of poorly delivered fuel shows up in the final mileage number.",
         "The system I inherited worked against both. It carried too many points of failure: it had cracked, it leaked at multiple interfaces, and at roughly 3.2 lb it was heavy for what it actually had to do — hold pressurized air and hand it to the fuel reservoir."
       ],
       "roleDetail": "Fuel System Lead. I own the design and optimisation of the fuel delivery system, coordinate with the wider Engine Sub-team on packaging and integration, and did the CAD, analysis, machining, and testing on the charge bottle and adapter myself.",
