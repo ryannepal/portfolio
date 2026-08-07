@@ -49,7 +49,7 @@
       "_note": "PROJECT 1. To add a new project, copy the TEMPLATE block at the bottom of this list.",
       "id": "supermileage-fuel-system",
       "title": "Fuel Delivery System — Supermileage Vehicle",
-      "blurb": "A pressure-fed fuel system: 50 psi from a 2 L PET charge bottle pressurises the fuel reservoir, which supplies port injection. The assembly it replaced had cracked, leaked at multiple interfaces, and weighed 3.2 lb against the bottle's 42 g. Validated in Ansys, machined with the University's CNC, then pressure-tested. The car ran 414 mpg at Indianapolis —— beating the previous year's 0 mpg.",
+      "blurb": "A pressure-fed fuel system: 50 psi from a 2 L PET charge bottle pressurises the fuel reservoir, which supplies port injection. The assembly it replaced had cracked, leaked at multiple interfaces, and weighed 3.2 lb against the bottle's 42 g. Validated in Ansys, machined with the University's CNC, then pressure-tested. The car ran 414 mpg at the Indianapolis Motor Speedway, and beat the previous year's 0 mpg.",
       "date": "September 2025 — Present",
       "setting": "UMass Supermileage Vehicle Team",
       "role": "Fuel System Lead",
@@ -164,7 +164,7 @@
       "_note": "PROJECT 2",
       "id": "leak-test-fixture",
       "title": "16-Up Leak Test Fixture for RF Surge Protectors",
-      "blurb": "Our old bench tested four units per 10-second cycle, and our largest customer orders tens of thousands at a time — so the test bench set the pace, not the line. I sized four pneumatic cylinders to clamp sixteen units at once at 42.5 psi, built the frame from 80/20 extrusion and an A36 steel cross bar, and ran every station to its own numbered tube in a water bath. One bubble now names the unit that failed.",
+      "blurb": "Our old bench tested four units per 10-second cycle, and our largest customer orders tens of thousands at a time. The test bench set the pace, not the technician. I sized four pneumatic cylinders to clamp sixteen units at once at 42.5 psi, built the frame from 80/20 extrusion and an A36 steel cross bar, and ran every station to its own numbered tube in a water bath. One bubble now names the unit that failed.",
       "date": "May 2025 — August 2025",
       "setting": "NexTek, LLC — Mechanical Engineering internship",
       "role": "Design, build, and validation owner",
@@ -256,7 +256,7 @@
       "_note": "PROJECT 3",
       "id": "mazda3-rebuild",
       "title": "Rebuild of a Salvage 2008 Mazda3 S",
-      "blurb": "I brought a totled, misfiring car back to running order: full mechanical assessment, front-end reconstruction, and an engineered repair for sheared intake manifold ports that restored proper airflow and eliminated misfires.",
+      "blurb": "Totaled. Every single panel in the front-end was beyond repair. The radiator was cracked, the support brackets were bent, and the barely 90k miles 4-cylinder would misfire if I even got it to start that time.  I brought it back to full working order, and it's been my daily since. What it took: a full mechanical assessment, front-end reconstruction, and an engineered repair for sheared intake manifold ports that restored proper airflow.",
       "date": "January 2026",
       "setting": "Personal project",
       "role": "Car Surgeon",
@@ -372,13 +372,12 @@
 
   "about": {
     "_note": "Two to four short paragraphs. Each string in 'paragraphs' becomes its own paragraph.",
-    "heading": "Mechanical engineering student who works where the drawing meets the machine.",
+    "heading": "Design. Build. Validate.",
     "_paragraphsNote": "The first paragraph is the personal one — rewrite it so it sounds like you, not like me. Keep it to two or three sentences; the photo does the rest of the work.",
     "paragraphs": [
-      "That's me in the photograph, installing my own training wheels. The method has improved since; the instinct has not. I want to know how a thing works, and I would rather find out with my hands than read about it.",
-      "It is most of why I chose mechanical engineering, and why the work I am proudest of is the work where I had to make the part and not only draw it. I am a mechanical engineering student at UMass Amherst graduating in May 2027, and most of what I do sits on both sides of a design: modeling and analyzing, building, running the test, and finding out whether the numbers held.",
-      "At NexTek I designed a leak test fixture for our largest customer's RF surge protectors: sized four pneumatic cylinders to apply 42.5 psi, built it on 80/20 with an A36 steel cross bar, and took the bench from 4 units per cycle to 16. Every position vents to its own numbered tube in a water bath, so a leak names the unit that failed. More than 21,000 units have gone through it. At Amazon's Reliability and Maintenance Engineering organization, I implemented and validated a PLC-controlled tote-turner using pneumatic actuators and photoelectric sensors, and built a full-stack tracking application on AWS so conveyor sorter amnesty could finally be root-caused with data instead of guesses.",
-      "As the Fuel System Lead on the UMass Supermileage Vehicle Team, I replaced a 3.2 lb pressurised air assembly that had cracked and leaked, with a 2 L PET charge bottle and a single machined aluminium adapter — 89% lighter, with far fewer interfaces to fail. The car ran 414 mpg at the Shell Eco-marathon. I also rebuilt a totaled Mazda3 in an apartment parking garage, which taught me more about tolerance and patience than any lab."
+      "That's me in the photograph, installing my own training wheels. The method has improved since; the instinct has not. What's changed is the order I do it in: read, size, cut, test. Now, most of what I do sits on all sides of a project: modeling and analyzing, building, running the test, and finding out whether the numbers held.",
+      "At NexTek, I designed a leak test fixture for our largest customer's RF surge protectors: sized four pneumatic cylinders to apply 42.5 psi, built it on 80/20 with an A36 steel cross bar, and took the bench from 4 units per cycle to 16. Every position vents to its own numbered tube in a water bath, so a leak names the unit that failed. More than 21,000 units have gone through it. At Amazon's Reliability and Maintenance Engineering organization, I implemented and validated a PLC-controlled tote-turner using pneumatic actuators and photoelectric sensors, and built a full-stack tracking application on AWS so conveyor sorter amnesty could finally be root-caused with data instead of guesses.",
+      "As the Fuel System Lead on the UMass Supermileage Vehicle Team, I replaced a 3.2 lb pressurized air assembly that had cracked and leaked, with a 2 L PET charge bottle and a single machined aluminum adapter — 89% lighter, with far fewer interfaces to fail. The car ran 414 mpg at the Shell Eco-marathon. I also rebuilt a totaled Mazda3 in an apartment parking garage, which taught me more about tolerance and patience than any lab."
     ],
 
     "photo": "training-wheels.jpg",
@@ -402,8 +401,8 @@
       "location": "Las Vegas, NV",
       "kind": "Internship",
       "bullets": [
-        "Designed and validated a PLC-controlled tote-turner using pneumatic actuators and photoelectric sensors to automate tote orientation on conveyance; leveraged industrial automation, ladder logic, and GD&T — increased accuracy 14%.",
-        "Built and deployed a full-stack web application on AWS (Elastic Beanstalk, Aurora PostgreSQL, S3) for tracking conveyor sorter amnesty across a site; a first-of-its-kind system enabling data-driven root cause analysis.",
+        "Implemented and validated a PLC-controlled tote-turner using pneumatic actuators and photoelectric sensors to automate tote orientation on conveyance; leveraged industrial automation, ladder logic, and GD&T.",
+        "Built and deployed a full-stack web application on AWS (Elastic Beanstalk, Aurora PostgreSQL, EC2, S3) for tracking conveyor sorter amnesty across a site; a first-of-its-kind system enabling data-driven root cause analysis.",
         "Owned a DMAIC project from baseline (1,171 units across 12 segments) through launch; 700+ units logged in the first 10 days, with a projected 2–4 hours per week saved by eliminating ad hoc investigation and preventing jams."
       ]
     },
@@ -414,7 +413,7 @@
       "location": "Billerica, MA",
       "kind": "Internship",
       "bullets": [
-        "Owned design, pneumatic sizing, build, and validation of a 16-up leak test fixture for IP-rated RF surge protectors; sized four cylinders to apply 42.5 psi at FoS 1.3 over the customer spec, performed FEA to a ~680 lbf structural load, and increased throughput 300% to 16 units per 10-second cycle across 21,000+ units tested.",
+        "Owned design, build, and validation of a 16-up leak test fixture for IP-rated RF surge protectors; sized four cylinders to apply 42.5 psi at FoS 1.3 over the customer spec, performed FEA to a 680 lbf structural load, and increased throughput 300% to 16 units per 10-second cycle across 21,000+ units tested.",
         "Supported end-to-end design and validation of EMI/RF protection components; applied CAD/3D modelling, GD&T, assembly, and bench testing with data acquisition to verify performance and reliability.",
         "Managed roughly four concurrent projects; led troubleshooting and failure analysis and drove ECOs and change control to resolve build issues and maintain spec compliance."
       ]
@@ -428,7 +427,7 @@
       "bullets": [
         "Collaborate with a multidisciplinary engineering team to design, develop, and optimise a high-efficiency vehicle for the Shell Eco-marathon at the Indianapolis Motor Speedway.",
         "Own design and optimisation of the fuel delivery system; used CAD and FEA to improve combustion efficiency and structural integrity, and CNC machining to produce efficient components; achieved 414 mpg in competition.",
-        "Rebuilt the pressure side of a port-injection fuel system: replaced a 3.2 lb assembly that had cracked and leaked at multiple interfaces with a 2 L PET air charge bottle and a single machined aluminium adapter — roughly 97% lighter, cheaper, and faster to build."
+        "Built a port-injection, pressurized fuel system: replaced a 3.2 lb assembly that had cracked and leaked at multiple interfaces with a 2 L PET air charge bottle and a single machined aluminium adapter — 89.8% lighter, cheaper, and faster to build."
       ]
     },
     {
@@ -451,11 +450,11 @@
       "items": [
         { "name": "SolidWorks", "note": "parts, assemblies, drawings" },
         "Autodesk Inventor",
-        "Fusion 360",
+        { "name": "Fusion", "note": "CAM prep for CNC; sizing, selection, toolpaths" },
         "AutoCAD",
         "Revit",
         { "name": "GD&T", "note": "tolerance-driven dimensioning" },
-        "DFMA",
+        { "name": "DFMA", "note": "fewer parts, simpler assembly" },
         "CAD / 3D modelling"
       ]
     },
@@ -463,6 +462,7 @@
       "group": "Manufacturing",
       "items": [
         { "name": "CNC machining", "note": "programming and machining from stock" },
+        { "name": "3D printing", "note": "proving design and fit before cutting" },
         "Manufacturing processes",
         "Prototyping",
         "Assembly and fitment verification",
@@ -472,41 +472,36 @@
     {
       "group": "Analysis & FEA",
       "items": [
-        { "name": "ANSYS", "note": "pressure and stress analysis" },
-        { "name": "FEA", "note": "assembly strength evaluation" },
-        { "name": "Strength of materials", "note": "coursework" },
-        { "name": "Fluid mechanics", "note": "coursework" },
-        { "name": "Thermodynamics", "note": "coursework" },
-        { "name": "Statics and dynamics", "note": "coursework" }
+        { "name": "SolidWorks Simulation", "note": "first-pass checks, studies, rapid iteration " },
+        { "name": "ANSYS", "note": "final-validation, static structural, pressure load" },
+        { "name": "FEA", "note": "stress, strain, assembly strength" }
       ]
     },
     {
       "group": "Programming & Software",
       "items": [
         "MATLAB",
-        { "name": "PLC programming", "note": "ladder logic, industrial automation" },
-        { "name": "AWS", "note": "Elastic Beanstalk, Aurora PostgreSQL, S3" },
-        "Microsoft Excel",
-        "TODO: add any languages you're comfortable with, or delete this line"
+        { "name": "PLC programming", "note": "ladder logic, Allen Bradley, Studio5000" },
+        { "name": "AWS", "note": "Elastic Beanstalk, Aurora PostgreSQL, EC2, S3, IAM" },
+        "Microsoft Excel"
       ]
     },
     {
       "group": "Lab & Testing",
       "items": [
-        { "name": "Bench testing with data acquisition", "note": "performance and reliability verification" },
+        { "name": "Bench testing", "note": "performance and reliability verification" },
         { "name": "Leak and pressure testing", "note": "leak-down monitoring under charge" },
         "Root cause analysis",
-        "Failure analysis and troubleshooting",
-        "Fault-code diagnostics",
-        "Component inspection"
+        "Failure analysis and troubleshooting"
       ]
     },
     {
       "group": "Process & Soft Skills",
       "items": [
-        { "name": "DMAIC", "note": "baseline through launch" },
-        "ECO and change control",
-        { "name": "Concurrent project management", "note": "roughly four projects at once" },
+        "Leadership and Management",
+        "DMAIC",
+        "ECO's",
+        "Concurrent project management",
         "Technical training and instruction",
         "Cross-functional collaboration"
       ]
@@ -536,7 +531,7 @@
 
   "contact": {
     "_note": "Any row left blank, or still saying TODO, is hidden automatically.",
-    "heading": "Open to mechanical engineering internships and co-ops — design, manufacturing, testing, and automation.",
+    "heading": "Open to mechanical engineering internships for Summer 2027 — design, manufacturing, and testing",
     "email": "nepalryan@outlook.com",
     "phone": "617-396-1412",
     "linkedin": "https://www.linkedin.com/in/ryan-nepal",
