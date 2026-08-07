@@ -167,7 +167,7 @@
       "blurb": "Our old bench tested four units per 10-second cycle, and our largest customer orders tens of thousands at a time — so the test bench set the pace, not the line. I sized four pneumatic cylinders to clamp sixteen units at once at 42.5 psi, built the frame from 80/20 extrusion and an A36 steel cross bar, and ran every station to its own numbered tube in a water bath. One bubble now names the unit that failed.",
       "date": "May 2025 — August 2025",
       "setting": "NexTek, LLC — Mechanical Engineering internship",
-      "role": "Design, pneumatic sizing, build, and validation owner",
+      "role": "Design, build, and validation owner",
       "status": "Validated and used in production",
       "disciplines": ["CAD/CAM", "Analysis", "Pneumatics", "Testing"],
       "tools": ["SolidWorks", "FEA", "Pneumatic actuation", "GD&T", "Leak testing", "Data acquisition"],
@@ -202,23 +202,22 @@
         "The method we had could pressure-test four units per 10-second cycle. At that order volume, the test bench — not the line — decided how fast product left the building.",
         "So the fixture had to do three things: apply more pressure than the spec demands with defensible margin, apply it to far more units per cycle, and still tell us which unit failed rather than only that one had. All of it while carrying roughly 680 lbf of reaction load without deflecting enough to break a seal."
       ],
-      "roleDetail": "I owned the fixture end to end — the pneumatic sizing, the CAD, the FEA, the build, and the validation — alongside roughly four concurrent projects.",
+      "roleDetail": "I owned the fixture end to end: the pneumatic sizing, the CAD, the FEA, the build, and the validation.",
       "approach": [
-        "Took the requirement straight off the customer's spec sheet, then researched pneumatic cylinders against it — working through bore size, rod diameter, and maximum output to land on a cylinder that applies 42.5 psi at the unit. That is a factor of safety of 1.3 over the spec threshold, which their sheet accepts.",
+        "Took the requirement straight off the customer's spec sheet, then researched pneumatic cylinders against it. I worked through bore size, rod diameter, and maximum output to land on a cylinder that applied 42.5 psi at the unit.",
         "Split the sixteen stations across four lower platens holding four units each, and put a driven upper platen on every cylinder so all sixteen seal in a single stroke.",
-        "Put actuation behind two green buttons, so all four cylinders fire together and the operator's hands stay clear of the platens as they close.",
-        "Ran every station to its own numbered tube ending below the surface of a water reservoir. A leaking unit bubbles its own tube, so one bubble names the unit rather than the batch — nobody re-tests the other fifteen to find it.",
+        "Put actuation behind two green buttons, and two emergency stop buttons. All four cylinders fire together and the operator's hands stay clear of the platens as they close.",
+        "Ran every station to its own numbered tube ending below the surface of a water reservoir. A leaking unit bubbles from its own tube, so one bubble names the unit rather than the batch.",
         "Built the structure from 80/20 aluminium extrusion and an A36 mild steel U-channel cross bar, which carries the clamping load across all sixteen stations without bowing in the middle.",
         "Used aluminium brackets for the supports and 1/4-20 Phillips screws and nuts throughout, so the fixture can be adjusted or serviced with one driver and one wrench.",
-        "Ran FEA on the assembly to confirm it carries roughly 680 lbf without deflecting enough to break a seal.",
-        "Assembled and validated the fixture on the bench with data acquisition, then put production volume through it.",
-        "Fed build issues back through ECOs and change control to keep it in spec as it was used."
+        "Ran FEA on the assembly to confirm it carries over 680 lbf without deflecting enough to break a seal.",
+        "Assembled and validated the fixture, then ran production volume through it.",
       ],
       "results": [
         "Throughput went from 4 units per 10-second cycle to 16 — a 300% increase at the same cycle time.",
         "Applied 42.5 psi at the unit, a factor of safety of 1.3 over the customer's spec threshold.",
         "Each numbered tube pins a failure to one unit, so we stopped re-testing whole batches to find it.",
-        "FEA confirmed the frame carries roughly 680 lbf without losing seal.",
+        "FEA confirmed the frame carries over 680 lbf without losing seal.",
         "More than 21,000 units have gone through it in production."
       ],
 
@@ -257,13 +256,13 @@
       "_note": "PROJECT 3",
       "id": "mazda3-rebuild",
       "title": "Rebuild of a Salvage 2008 Mazda3 S",
-      "blurb": "A salvage car brought back to running order: full mechanical and structural assessment, front-end reconstruction, and an engineered repair for sheared intake manifold ports that restored airflow and eliminated the misfires.",
+      "blurb": "I brought a totled, misfiring car back to running order: full mechanical assessment, front-end reconstruction, and an engineered repair for sheared intake manifold ports that restored proper airflow and eliminated misfires.",
       "date": "January 2026",
       "setting": "Personal project",
-      "role": "Assessment, diagnostics, fabrication, assembly",
-      "status": "Complete — vehicle running",
+      "role": "Car Surgeon",
+      "status": "Complete — vehicle running 7 months post-repair",
       "disciplines": ["Automotive", "Diagnostics", "Fabrication"],
-      "tools": ["Fault-code diagnostics", "Component inspection", "Precision tapping", "High-temp epoxy", "Hand tools"],
+      "tools": ["Fault-code diagnostics", "Precision tapping", "High-temp epoxy", "Power/hand tools", "Patience", "Prayer"],
 
       "coverPhoto": "mazda3-cover.jpg",
       "coverAlt": "The rebuilt 2008 Mazda3 S",
@@ -275,11 +274,11 @@
       ],
 
       "specs": [
-        { "label": "Vehicle", "value": "2008 Mazda3 S, purchased as salvage" },
-        { "label": "Failure mode", "value": "Sheared intake manifold ports, front-end collision damage" }
+        { "label": "Vehicle", "value": "2008 Mazda3 S, 2.3L 4-cylinder NA" },
+        { "label": "Failure mode", "value": "Sheared intake manifold and solenoid ports, front-end collision damage" }
       ],
 
-      "problem": "The car arrived with front-end collision damage and an engine that would not run cleanly. Before anything could be fixed, the real failure modes had to be separated from the noise.",
+      "problem": "The car was labeled as totaled by insurance. Every single front-end panel was beyond repair, the radiator was cracked, all support brackets had bent, and the engine would not run cleanly. Before anything could be fixed, I had to discover the real failure modes.",
       "roleDetail": "Everything: assessment, diagnosis, the repair strategy, fabrication, and assembly.",
       "approach": [
         "Performed a comprehensive mechanical and structural assessment, identifying front-end collision damage and engine performance issues through component inspection and fault-code diagnostics.",
@@ -291,10 +290,9 @@
         "Eliminated engine misfires and returned the vehicle to running condition."
       ],
 
-      "_photoGroupsNote": "photoGroups makes labelled columns side by side. The 1st photo of every column shares a row, the 2nd photo shares the next row, and so on, so comparable photos line up and sit centred against each other. \"width\" sets how wide a column is relative to the others, so 1 and 1.7 means the second column is 1.7 times wider. \"crop\" shows a photo at a set shape (\"1/1\" square, \"4/3\", \"16/9\") trimmed evenly from the top and bottom instead of at its own proportions. \"maxWidth\" stops a photo filling its column, and is needed whenever a crop makes a photo tall. \"59%\" makes a photo in the After column exactly as wide as one in the Before column, because the After column is 1.7 times wider and 1 divided by 1.7 is 0.59. Use photoGroups OR photos, not both.",
+      "_photoGroupsNote": "photoGroups makes labeled columns side by side. The 1st photo of every column shares a row, the 2nd photo shares the next row, and so on, so comparable photos line up and sit centred against each other. \"width\" sets how wide a column is relative to the others, so 1 and 1.7 means the second column is 1.7 times wider. \"crop\" shows a photo at a set shape (\"1/1\" square, \"4/3\", \"16/9\") trimmed evenly from the top and bottom instead of at its own proportions. \"maxWidth\" stops a photo filling its column, and is needed whenever a crop makes a photo tall. \"59%\" makes a photo in the After column exactly as wide as one in the Before column, because the After column is 1.7 times wider and 1 divided by 1.7 is 0.59. Use photoGroups OR photos, not both.",
       "photoGroups": [
         {
-          "label": "Before",
           "width": 1,
           "photos": [
             {
@@ -310,7 +308,6 @@
           ]
         },
         {
-          "label": "After",
           "width": 1.7,
           "photos": [
             {
