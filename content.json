@@ -19,12 +19,12 @@
     "name": "Ryan Nepal",
     "field": "Mechanical Engineering",
     "kicker": "Mechanical Engineering — Project Portfolio",
-    "tagline": "I design the part, then build the fixture that proves it.",
+    "tagline": "Design. Build. Validate.",
     "metaDescription": "Mechanical engineering student at UMass Amherst. Design, FEA, CNC machining, and test validation.",
 
     "photo": "headshot.jpg",
     "photoAlt": "Ryan Nepal speaking at a podium",
-    "photoCaption": "Fig. 1 — Ryan Nepal",
+    "photoCaption": "Fig. 1",
 
     "_buttonsNote": "Buttons under your name. Delete any you don't want. 'primary' fills it with the accent colour.",
     "buttons": [
@@ -41,29 +41,6 @@
       { "label": "Degree", "value": "B.S. Mechanical Engineering" },
       { "label": "Graduating", "value": "May 2027" },
       { "label": "Based", "value": "Cambridge, MA" }
-    ]
-  },
-
-  "about": {
-    "_note": "Two to four short paragraphs. Each string in 'paragraphs' becomes its own paragraph.",
-    "heading": "Mechanical engineering student who works where the drawing meets the machine.",
-    "_paragraphsNote": "The first paragraph is the personal one — rewrite it so it sounds like you, not like me. Keep it to two or three sentences; the photo does the rest of the work.",
-    "paragraphs": [
-      "That's me in the photograph, installing my own training wheels. The method has improved since; the instinct has not. I want to know how a thing works, and I would rather find out with my hands than read about it.",
-      "It is most of why I chose mechanical engineering, and why the work I am proudest of is the work where I had to make the part and not only draw it. I am a mechanical engineering student at UMass Amherst graduating in May 2027, and most of what I do sits on both sides of a design: modeling and analyzing, building, running the test, and finding out whether the numbers held.",
-      "At NexTek I designed a leak test fixture for our largest customer's RF surge protectors: sized four pneumatic cylinders to apply 42.5 psi, built it on 80/20 with an A36 steel cross bar, and took the bench from 4 units per cycle to 16. Every position vents to its own numbered tube in a water bath, so a leak names the unit that failed. More than 21,000 units have gone through it. At Amazon's Reliability and Maintenance Engineering organization, I implemented and validated a PLC-controlled tote-turner using pneumatic actuators and photoelectric sensors, and built a full-stack tracking application on AWS so conveyor sorter amnesty could finally be root-caused with data instead of guesses.",
-      "As the Fuel System Lead on the UMass Supermileage Vehicle Team, I replaced a 3.2 lb pressurised air assembly that had cracked and leaked, with a 2 L PET charge bottle and a single machined aluminium adapter — 89% lighter, with far fewer interfaces to fail. The car ran 414 mpg at the Shell Eco-marathon. I also rebuilt a totaled Mazda3 in an apartment parking garage, which taught me more about tolerance and patience than any lab."
-    ],
-
-    "photo": "training-wheels.jpg",
-    "photoAlt": "Ryan Nepal as a toddler, installing training wheels on a bicycle",
-    "photoCaption": "Fig. 2 — First assembly, many more to come",
-
-    "_highlightsNote": "Three or four numbers worth pulling out. 'figure' is the big accent-coloured bit.",
-    "highlights": [
-      { "figure": "414", "label": "MPG at Shell Eco-marathon", "note": "UMass Supermileage Vehicle Team, fuel system lead" },
-      { "figure": "89%", "label": "Pressure vessel mass cut", "note": "3.2 lb assembly replaced by a 42 g PET charge bottle" },
-      { "figure": "300%", "label": "Test throughput increase", "note": "16 units per cycle instead of 4, on a fixture I sized, built and validated" }
     ]
   },
 
@@ -396,6 +373,29 @@
     }
   ],
 
+  "about": {
+    "_note": "Two to four short paragraphs. Each string in 'paragraphs' becomes its own paragraph.",
+    "heading": "Mechanical engineering student who works where the drawing meets the machine.",
+    "_paragraphsNote": "The first paragraph is the personal one — rewrite it so it sounds like you, not like me. Keep it to two or three sentences; the photo does the rest of the work.",
+    "paragraphs": [
+      "That's me in the photograph, installing my own training wheels. The method has improved since; the instinct has not. I want to know how a thing works, and I would rather find out with my hands than read about it.",
+      "It is most of why I chose mechanical engineering, and why the work I am proudest of is the work where I had to make the part and not only draw it. I am a mechanical engineering student at UMass Amherst graduating in May 2027, and most of what I do sits on both sides of a design: modeling and analyzing, building, running the test, and finding out whether the numbers held.",
+      "At NexTek I designed a leak test fixture for our largest customer's RF surge protectors: sized four pneumatic cylinders to apply 42.5 psi, built it on 80/20 with an A36 steel cross bar, and took the bench from 4 units per cycle to 16. Every position vents to its own numbered tube in a water bath, so a leak names the unit that failed. More than 21,000 units have gone through it. At Amazon's Reliability and Maintenance Engineering organization, I implemented and validated a PLC-controlled tote-turner using pneumatic actuators and photoelectric sensors, and built a full-stack tracking application on AWS so conveyor sorter amnesty could finally be root-caused with data instead of guesses.",
+      "As the Fuel System Lead on the UMass Supermileage Vehicle Team, I replaced a 3.2 lb pressurised air assembly that had cracked and leaked, with a 2 L PET charge bottle and a single machined aluminium adapter — 89% lighter, with far fewer interfaces to fail. The car ran 414 mpg at the Shell Eco-marathon. I also rebuilt a totaled Mazda3 in an apartment parking garage, which taught me more about tolerance and patience than any lab."
+    ],
+
+    "photo": "training-wheels.jpg",
+    "photoAlt": "Ryan Nepal as a toddler, installing training wheels on a bicycle",
+    "photoCaption": "Fig. 2 — First assembly, many more to come",
+
+    "_highlightsNote": "Three or four numbers worth pulling out. 'figure' is the big accent-coloured bit.",
+    "highlights": [
+      { "figure": "414", "label": "MPG at Shell Eco-marathon", "note": "UMass Supermileage Vehicle Team, fuel system lead" },
+      { "figure": "89%", "label": "Pressure vessel mass cut", "note": "3.2 lb assembly replaced by a 42 g PET charge bottle" },
+      { "figure": "300%", "label": "Test throughput increase", "note": "16 units per cycle instead of 4, on a fixture I sized, built and validated" }
+    ]
+  },
+  
   "experience": [
     {
       "_note": "Newest first. 'kind' is the small tag next to the dates — use anything you like.",
