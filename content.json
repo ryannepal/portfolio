@@ -211,7 +211,7 @@
         "Built the structure from 80/20 aluminium extrusion and an A36 mild steel U-channel cross bar, which carries the clamping load across all sixteen stations without bowing in the middle.",
         "Used aluminium brackets for the supports and 1/4-20 Phillips screws and nuts throughout, so the fixture can be adjusted or serviced with one driver and one wrench.",
         "Ran FEA on the assembly to confirm it carries over 680 lbf without deflecting enough to break a seal.",
-        "Assembled and validated the fixture, then ran production volume through it.",
+        "Assembled and validated the fixture, then ran production volume through it."
       ],
       "results": [
         "Throughput went from 4 units per 10-second cycle to 16 — a 300% increase at the same cycle time.",
