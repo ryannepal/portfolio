@@ -37,7 +37,7 @@
 
     "_factsNote": "The strip of small facts under the hero. Add or delete rows freely.",
     "facts": [
-      { "label": "Institution", "value": "UMass Amherst" },
+      { "label": "Institution", "value": "University of Massachusetts Amherst" },
       { "label": "Degree", "value": "B.S. Mechanical Engineering" },
       { "label": "Graduating", "value": "May 2027" },
       { "label": "Based", "value": "Cambridge, MA" }
