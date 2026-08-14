@@ -53,7 +53,7 @@
       "date": "September 2025 — Present",
       "setting": "UMass Supermileage Vehicle Team",
       "role": "Fuel System Lead",
-      "disciplines": ["Automotive", "Manufacturing"],
+      "disciplines": ["Automotive", "Manufacturing", "CAD/CAM", "ANSYS", "CNC"],
       "tools": ["SolidWorks", "ANSYS", "CNC machining", "GD&T", "Pressure testing", "Prototyping"],
 
       "coverPhoto": "supermileage-fuel-system-cover.jpg",
@@ -63,7 +63,7 @@
         { "figure": "414", "label": "MPG in competition", "note": "Shell Eco-marathon, Indianapolis Motor Speedway" },
         { "figure": "~97%", "label": "Pressure vessel mass reduction", "note": "3.2 lb assembly replaced by a 42 g PET charge bottle" },
         { "figure": "40/50", "label": "PSI held after 48 hours", "note": "charged to 50 psi, 10 psi lost over two days" },
-        { "figure": "FEA", "label": "Validated in Ansys", "note": "pressure and stress analysis before cutting metal" }
+        { "figure": "FEA", "label": "Validated in ANSYS", "note": "pressure and stress analysis before cutting metal" }
       ],
 
       "specs": [
@@ -501,7 +501,7 @@
     "degree": "Bachelor of Science in Mechanical Engineering",
     "school": "University of Massachusetts Amherst",
     "location": "Amherst, MA",
-    "graduation": "Expected May 2027",
+    "graduation": "Expected May 2028",
 
     "coursework": [
       "Design of Mechanical Components",
