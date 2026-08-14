@@ -74,7 +74,7 @@
 
       "problem": [
         "A supermileage vehicle only wins on efficiency, so every gram of unnecessary structure and every milliliter of poorly delivered fuel shows up in the final mileage number.",
-        "The system I inherited worked against both. It carried too many points of failure: it had cracked, it leaked at multiple interfaces, and at roughly 3.2 lb it was heavy for what it actually had to do — hold pressurized air and hand it to the fuel reservoir."
+        "The system I inherited worked against both. It carried too many points of failure: it was cracked, it leaked at multiple interfaces, and at 3.2 lb, it was heavy for what it actually had to do: hold pressurized air and hand it to the fuel reservoir."
       ],
       "roleDetail": "Fuel System Lead. I own the design and optimisation of the fuel delivery system, coordinate with the wider Engine Sub-team on packaging and integration, and did the CAD, analysis, machining, and testing on the charge bottle and adapter myself.",
       "approach": [
@@ -110,8 +110,8 @@
         },
         {
           "file": "supermileage-print-pressure-side.jpg",
-          "caption": "3D-printed prototype, pressurised air side — checking fit and clearance before committing to metal",
-          "alt": "3D-printed prototype of the adapter, pressurised air side"
+          "caption": "3D-printed prototype, pressurized air side — checking fit and clearance before committing to metal",
+          "alt": "3D-printed prototype of the adapter, pressurized air side"
         },
         {
           "file": "supermileage-print-reservoir-side.jpg",
@@ -125,13 +125,13 @@
         },
         {
           "file": "supermileage-cnc-cutting.jpg",
-          "caption": "Inside the enclosure — the cutter working down into the aluminium block clamped in the vise, coolant flooding the cut to clear chips and keep the tool cool",
-          "alt": "Close view inside the CNC mill: the cutter machining an aluminium block clamped in a vise, with coolant flowing over the cut"
+          "caption": "Inside the enclosure — the cutter working down into the aluminum block clamped in the vise, coolant flooding the cut to clear chips and keep the tool cool",
+          "alt": "Close view inside the CNC mill: the cutter machining an aluminum block clamped in a vise, with coolant flowing over the cut"
         },
         {
           "file": "supermileage-adapter-finished.jpg",
-          "caption": "The finished aluminium fuel system adapter, deburred and off the machine",
-          "alt": "Completed CNC-machined aluminium fuel system adapter"
+          "caption": "The finished aluminum fuel system adapter, deburred and off the machine",
+          "alt": "Completed CNC-machined aluminum fuel system adapter"
         },
         {
           "file": "supermileage-tapping-npt.jpg",
@@ -163,7 +163,6 @@
       "blurb": "Our old bench tested four units per 10-second cycle, and our largest customer orders tens of thousands at a time. The test bench set the pace, not the technician. I sized four pneumatic cylinders to clamp sixteen units at once at 42.5 psi, built the frame from 80/20 extrusion and an A36 steel cross bar, and ran every station to its own numbered tube in a water bath. One bubble now names the unit that failed.",
       "date": "May 2025 — August 2025",
       "setting": "NexTek, LLC — Mechanical Engineering internship",
-      "role": "Design, build, and validation owner",
       "status": "Validated and used in production",
       "disciplines": ["CAD/CAM", "Analysis", "Pneumatics", "Testing"],
       "tools": ["SolidWorks", "FEA", "Pneumatic actuation", "GD&T", "Leak testing", "Data acquisition"],
@@ -181,26 +180,19 @@
       ],
 
       "specs": [
-        { "label": "Product under test", "value": "IP-rated RF surge protectors" },
-        { "label": "Requirement", "value": "Withstand the customer's spec threshold of 32.7 psi" },
+        { "label": "Requirement", "value": "Withstand the customer's spec threshold" },
         { "label": "Applied pressure", "value": "42.5 psi — factor of safety 1.3" },
-        { "label": "Throughput", "value": "16 units per 10-second cycle, up from 4" },
-        { "label": "Actuation", "value": "Four pneumatic cylinders on a two-button control" },
-        { "label": "Platens", "value": "Four lower platens, four units each, with a driven upper platen per cylinder" },
-        { "label": "Leak detection", "value": "Sixteen labelled tubes submerged in a water reservoir" },
-        { "label": "Frame", "value": "80/20 aluminium extrusion" },
-        { "label": "Cross bar", "value": "A36 mild steel U-channel" },
-        { "label": "Brackets and fasteners", "value": "Aluminium brackets, 1/4-20 Phillips screws and nuts", "wide": true }
+        { "label": "Throughput", "value": "4X units per 10-second cycle" },
       ],
 
       "problem": [
-        "Our largest customer, a Fortune 500 buyer, orders IP-rated RF surge protectors tens of thousands of units at a time and supplies the spec sheet those units are tested against. Every one has to hold pressure above their spec threshold before it ships.",
-        "The method we had could pressure-test four units per 10-second cycle. At that order volume, the test bench — not the line — decided how fast product left the building.",
-        "So the fixture had to do three things: apply more pressure than the spec demands with defensible margin, apply it to far more units per cycle, and still tell us which unit failed rather than only that one had. All of it while carrying roughly 680 lbf of reaction load without deflecting enough to break a seal."
+        "Our largest customer orders IP-rated RF surge protectors tens of thousands of units at a time and supplies the spec sheet those units are tested against. Every one has to withhold pressure above their spec threshold before it ships.",
+        "The method we had could pressure-test four units per 10-second cycle. At that order volume, our current process decided how fast product left the building.",
+        "So the fixture had to do three things: apply more pressure than the spec demands (limited to a FoS of 1.3), apply it to more units per cycle, and tell us which unit failed rather than only tell us that one had."
       ],
       "roleDetail": "I owned the fixture end to end: the pneumatic sizing, the CAD, the FEA, the build, and the validation.",
       "approach": [
-        "Took the requirement straight off the customer's spec sheet, then researched pneumatic cylinders against it. I worked through bore size, rod diameter, and maximum output to land on a cylinder that applied 42.5 psi at the unit.",
+        "Used the requirements from the customer's spec sheet to research pneumatic actuators. I worked through bore size, rod diameter, and maximum output to land on a cylinder that applied 42.5 psi at the unit.",
         "Split the sixteen stations across four lower platens holding four units each, and put a driven upper platen on every cylinder so all sixteen seal in a single stroke.",
         "Put actuation behind two green buttons, and two emergency stop buttons. All four cylinders fire together and the operator's hands stay clear of the platens as they close.",
         "Ran every station to its own numbered tube ending below the surface of a water reservoir. A leaking unit bubbles from its own tube, so one bubble names the unit rather than the batch.",
