@@ -182,7 +182,7 @@
       "specs": [
         { "label": "Requirement", "value": "Withstand the customer's spec threshold" },
         { "label": "Applied pressure", "value": "42.5 psi — factor of safety 1.3" },
-        { "label": "Throughput", "value": "4X units per 10-second cycle" },
+        { "label": "Throughput", "value": "4X units per 10-second cycle" }
       ],
 
       "problem": [
