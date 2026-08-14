@@ -39,7 +39,7 @@
     "facts": [
       { "label": "Institution", "value": "University of Massachusetts Amherst" },
       { "label": "Degree", "value": "B.S. Mechanical Engineering" },
-      { "label": "Graduating", "value": "May 2027" },
+      { "label": "Graduating", "value": "May 2028" },
       { "label": "Based", "value": "Cambridge, MA" }
     ]
   },
@@ -48,13 +48,12 @@
     {
       "_note": "PROJECT 1. To add a new project, copy the TEMPLATE block at the bottom of this list.",
       "id": "supermileage-fuel-system",
-      "title": "Fuel Delivery System — Supermileage Vehicle",
+      "title": "Fuel Delivery System",
       "blurb": "A pressure-fed fuel system: 50 psi from a 2 L PET charge bottle pressurises the fuel reservoir, which supplies port injection. The assembly it replaced had cracked, leaked at multiple interfaces, and weighed 3.2 lb against the bottle's 42 g. Validated in Ansys, machined with the University's CNC, then pressure-tested. The car ran 414 mpg at the Indianapolis Motor Speedway, and beat the previous year's 0 mpg.",
       "date": "September 2025 — Present",
       "setting": "UMass Supermileage Vehicle Team",
       "role": "Fuel System Lead",
-      "status": "Competed at Shell Eco-marathon",
-      "disciplines": ["Automotive", "Analysis", "CAD/CAM", "Manufacturing"],
+      "disciplines": ["Automotive", "Manufacturing"],
       "tools": ["SolidWorks", "ANSYS", "CNC machining", "GD&T", "Pressure testing", "Prototyping"],
 
       "coverPhoto": "supermileage-fuel-system-cover.jpg",
@@ -64,15 +63,12 @@
         { "figure": "414", "label": "MPG in competition", "note": "Shell Eco-marathon, Indianapolis Motor Speedway" },
         { "figure": "~97%", "label": "Pressure vessel mass reduction", "note": "3.2 lb assembly replaced by a 42 g PET charge bottle" },
         { "figure": "40/50", "label": "PSI held after 48 hours", "note": "charged to 50 psi, 10 psi lost over two days" },
-        { "figure": "1", "label": "Machined interface", "note": "one adapter carrying the NPT connection, down from several joints" },
         { "figure": "FEA", "label": "Validated in Ansys", "note": "pressure and stress analysis before cutting metal" }
       ],
 
       "specs": [
         { "label": "Competition", "value": "Shell Eco-marathon, Indianapolis Motor Speedway" },
-        { "label": "Team", "value": "UMass Supermileage Vehicle Team, multidisciplinary" },
         { "label": "Architecture", "value": "Pressurised air → fuel reservoir → port injection" },
-        { "label": "Charge bottle", "value": "2 L PET, 42 g, holds pressurised air" },
         { "label": "Adapter", "value": "Aluminium, CNC-machined from stock, hand-tapped NPT" }
       ],
 
