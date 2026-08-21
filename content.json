@@ -210,31 +210,14 @@
       ],
 
       "_photosNote": "To fill a reserved slot: put your photo in images/projects/, then in that entry swap the \"placeholder\" line for a \"file\" line — for example \"file\": \"leak-test-fixture-01.jpg\" — and rewrite the caption and alt. An entry with a \"video\" instead of a \"file\" plays inline and is always muted.",
-      "galleryColumns": 2,
-      "galleryMaxWidth": "820px",
       "photos": [
         {
           "video": "leak-test-fixture-demo.mp4",
           "poster": "leak-test-fixture-demo-poster.jpg",
           "crop": "16/9",
           "span": "full",
-          "caption": "The fixture in operation",
+          "caption": "The fixture in operation. The drawings and files are confidential due to the nature of the client; this video is what I can share.",
           "alt": "Video of the leak test fixture running a unit"
-        },
-        {
-          "placeholder": "Photo slot 1 — to be added",
-          "caption": "TODO: replace this slot with a photo and write its caption",
-          "crop": "4/3"
-        },
-        {
-          "placeholder": "Photo slot 2 — to be added",
-          "caption": "TODO: replace this slot with a photo and write its caption",
-          "crop": "4/3"
-        },
-        {
-          "placeholder": "Photo slot 3 — to be added",
-          "caption": "TODO: replace this slot with a photo and write its caption",
-          "crop": "4/3"
         }
       ],
       "links": []
